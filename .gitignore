@@ -1,0 +1,17 @@
+GW.Report/
+GW.SemanticModel/
+GW.pbip
+docs/
+out/*.zip
+out/GW/
+out/package.zip
+out/handoff.pdf
+out/post.md
+GW_linkedin.pdf
+*.tmp
+*.bak
+*.log
+Thumbs.db
+.DS_Store
+.pbi/
+old/
