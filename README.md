@@ -2,6 +2,14 @@
 
 This Power BI project analyzes Golden Wok food delivery performance across 5,000 orders, focusing on delivery performance, profitability, customer experience, and data quality. The report highlights business results while clearly separating valid analytical records from source-data issues in delivery time, food temperature, and SLA coverage.
 
+[View report PDF](GW.pdf) · [Download Power BI source](jongoGW.pbix)
+
+![Golden Wok delivery performance dashboard](out/control_tower.png)
+
+## Business question
+
+How can delivery managers assess commercial performance while accounting for incomplete and implausible operational measurements?
+
 ## Tools
 
 - Power BI
@@ -27,3 +35,14 @@ This Power BI project analyzes Golden Wok food delivery performance across 5,000
 ## Note
 
 The dashboard keeps data-quality limitations visible. Delivery-time, temperature, and SLA metrics use screened records so the conclusions are based on valid observations rather than implausible source values.
+
+## Review & reuse
+
+Start with the PDF for the finished analytical story. To inspect or adapt the report, download the repository and open `jongoGW.pbix` in Power BI Desktop; update source paths to the local `data/` directory if prompted.
+
+The 5,000-order total is not the denominator for every metric: delivery-time, temperature and SLA measures use the screened subsets listed above. The supplied profit field should not be assumed to reconcile to order value less delivery cost without checking its definition. This is a portfolio case study, not a claim of verified operating results for a real client.
+
+## Author
+
+[Yusuf Abdallah Jongo](https://yusuf-jongo.vercel.app/) — Economist, Data Analyst & AI and Digital Solutions Builder.
+
